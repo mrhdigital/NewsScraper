@@ -26,9 +26,9 @@ app.engine("handlebars", expressHandlebars({
 }));
 app.set("view engine", "handlebars");
 
-app.get('/', function (req, res) {
-    res.render('home');
-});
+// app.get('/', function (req, res) {
+//     res.render('home');
+// });
 
 // use bodyParser in our app
 app.use(bodyParser.urlencoded({
