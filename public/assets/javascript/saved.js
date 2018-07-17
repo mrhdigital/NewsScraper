@@ -53,15 +53,16 @@ $(document).ready(function() {
           "<a class='article-link' target='_blank' href='" + article.url + "'>",
           article.headline,
           "</a>",
-          "<a class='btn btn-danger delete'>",
-          "Delete From Saved",
-          "</a>",
-          "<a class='btn btn-info notes'>Article Notes</a>",
+          
           "</h3>",
           "</div>",
           "<div class='panel-body'>",
           article.summary,
           "</div>",
+          "<a class='btn btn-danger delete'>",
+          "Delete From Saved",
+          "</a>",
+          "<a class='btn btn-info notes'>Article Notes</a>",
           "</div>"
         ].join("")
       );

@@ -51,14 +51,15 @@ $(document).ready(function() {
           "<a class='article-link' target='_blank' href='" + article.url + "'>",
           article.headline,
           "</a>",
-          "<a class='btn btn-success save'>",
-          "Save Article",
-          "</a>",
+          
           "</h3>",
           "</div>",
           "<div class='panel-body'>",
           article.summary,
           "</div>",
+          "<a class='btn btn-success save'>",
+          "Save Article",
+          "</a>",
           "</div>"
         ].join("")
       );
