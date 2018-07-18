@@ -1,4 +1,4 @@
-# burger
+# MongoDB NYT WebScraper
 ### Synopsis
 ***
 This application demonstrates a simple full stack application with a front end implemented with HTML/CSS and the backend implemented with Node.js and Express. HTML templating is done with the help of Handlebars.
