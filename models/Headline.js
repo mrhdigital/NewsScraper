@@ -14,9 +14,14 @@ var headlineSchema = new Schema({
     type: String,
     required: true
   },
+  
   url: {
     type: String,
     required: true
+  },
+  imgUrl: {
+    type: String,
+    required: false
   },
   date: String,
   saved: {
