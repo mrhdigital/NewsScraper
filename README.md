@@ -3,7 +3,7 @@
 ***
 This application demonstrates a simple full stack application with a front end implemented with HTML/CSS and the backend implemented with Node.js and Express. HTML templating is done with the help of Handlebars.
 This app uses Cheerio to scrape the New York Times US section and pull the most recent 20 articles.
-[Here is the live version](https:#)
+[Here is the live version](https://floating-hamlet-27409.herokuapp.com/)
 
 ### User interface
 
